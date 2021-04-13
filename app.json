@@ -4,9 +4,9 @@
     "slug": "gradproj",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/finallogo.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/assets/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,7 +20,12 @@
       "supportsTablet": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./app/assets/favicon.png"
+    },
+    "android":{
+      "permissions":["expo-barcode-scanner expo-camera"," expo-camera","expo-image-picker","expo-media-library","expo-image-picker","expo-media-library"],
+      "package":"com.Health.archive",
+      "versionCode": 1
     }
   }
 }
